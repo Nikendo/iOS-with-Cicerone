@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		7CD9B657F2B60F4762CF4224 /* Pods_iOS_with_CiceroneUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 10AA688955AE34A5E70A45C2 /* Pods_iOS_with_CiceroneUITests.framework */; };
+		B98996DF3E87C9ECD1C3CFA7 /* Pods_iOS_with_Cicerone.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0C9193EF3FEDADDD3291E910 /* Pods_iOS_with_Cicerone.framework */; };
 		BBF08106225F29FD002FA60C /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = BBF08105225F29FD002FA60C /* AppDelegate.swift */; };
 		BBF08108225F29FD002FA60C /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BBF08107225F29FD002FA60C /* ViewController.swift */; };
 		BBF0810B225F29FD002FA60C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BBF08109225F29FD002FA60C /* Main.storyboard */; };
@@ -14,6 +16,7 @@
 		BBF08110225F29FF002FA60C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BBF0810E225F29FF002FA60C /* LaunchScreen.storyboard */; };
 		BBF0811B225F2A00002FA60C /* iOS_with_CiceroneTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BBF0811A225F2A00002FA60C /* iOS_with_CiceroneTests.swift */; };
 		BBF08126225F2A00002FA60C /* iOS_with_CiceroneUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BBF08125225F2A00002FA60C /* iOS_with_CiceroneUITests.swift */; };
+		F2F18F1608B10DFC504510F6 /* Pods_iOS_with_CiceroneTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3F12C274AF3E89808734FC9F /* Pods_iOS_with_CiceroneTests.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -34,6 +37,14 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		051B4A1F060E95A8E028A025 /* Pods-iOS-with-Cicerone.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-iOS-with-Cicerone.debug.xcconfig"; path = "Target Support Files/Pods-iOS-with-Cicerone/Pods-iOS-with-Cicerone.debug.xcconfig"; sourceTree = "<group>"; };
+		0C9193EF3FEDADDD3291E910 /* Pods_iOS_with_Cicerone.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_iOS_with_Cicerone.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		10AA688955AE34A5E70A45C2 /* Pods_iOS_with_CiceroneUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_iOS_with_CiceroneUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		20427BCC7A3EFCE3130E608A /* Pods-iOS-with-Cicerone.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-iOS-with-Cicerone.release.xcconfig"; path = "Target Support Files/Pods-iOS-with-Cicerone/Pods-iOS-with-Cicerone.release.xcconfig"; sourceTree = "<group>"; };
+		3F12C274AF3E89808734FC9F /* Pods_iOS_with_CiceroneTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_iOS_with_CiceroneTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		4F340BCFDFBD8805C32B09EE /* Pods-iOS-with-CiceroneTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-iOS-with-CiceroneTests.release.xcconfig"; path = "Target Support Files/Pods-iOS-with-CiceroneTests/Pods-iOS-with-CiceroneTests.release.xcconfig"; sourceTree = "<group>"; };
+		94351D0A2F1BC6A864F906D6 /* Pods-iOS-with-CiceroneTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-iOS-with-CiceroneTests.debug.xcconfig"; path = "Target Support Files/Pods-iOS-with-CiceroneTests/Pods-iOS-with-CiceroneTests.debug.xcconfig"; sourceTree = "<group>"; };
+		9978BE0BA24547AE93551A42 /* Pods-iOS-with-CiceroneUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-iOS-with-CiceroneUITests.release.xcconfig"; path = "Target Support Files/Pods-iOS-with-CiceroneUITests/Pods-iOS-with-CiceroneUITests.release.xcconfig"; sourceTree = "<group>"; };
 		BBF08102225F29FD002FA60C /* iOS-with-Cicerone.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "iOS-with-Cicerone.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		BBF08105225F29FD002FA60C /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		BBF08107225F29FD002FA60C /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -47,6 +58,7 @@
 		BBF08121225F2A00002FA60C /* iOS-with-CiceroneUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "iOS-with-CiceroneUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		BBF08125225F2A00002FA60C /* iOS_with_CiceroneUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = iOS_with_CiceroneUITests.swift; sourceTree = "<group>"; };
 		BBF08127225F2A00002FA60C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D54BAE5A531103A176CE8287 /* Pods-iOS-with-CiceroneUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-iOS-with-CiceroneUITests.debug.xcconfig"; path = "Target Support Files/Pods-iOS-with-CiceroneUITests/Pods-iOS-with-CiceroneUITests.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,6 +66,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B98996DF3E87C9ECD1C3CFA7 /* Pods_iOS_with_Cicerone.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -61,6 +74,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F2F18F1608B10DFC504510F6 /* Pods_iOS_with_CiceroneTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -68,6 +82,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				7CD9B657F2B60F4762CF4224 /* Pods_iOS_with_CiceroneUITests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -81,6 +96,8 @@
 				BBF08119225F2A00002FA60C /* iOS-with-CiceroneTests */,
 				BBF08124225F2A00002FA60C /* iOS-with-CiceroneUITests */,
 				BBF08103225F29FD002FA60C /* Products */,
+				F0661359AA22878F8933AAC8 /* Pods */,
+				EB558D465102310AEE92F16C /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -125,6 +142,30 @@
 			path = "iOS-with-CiceroneUITests";
 			sourceTree = "<group>";
 		};
+		EB558D465102310AEE92F16C /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				0C9193EF3FEDADDD3291E910 /* Pods_iOS_with_Cicerone.framework */,
+				3F12C274AF3E89808734FC9F /* Pods_iOS_with_CiceroneTests.framework */,
+				10AA688955AE34A5E70A45C2 /* Pods_iOS_with_CiceroneUITests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		F0661359AA22878F8933AAC8 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				051B4A1F060E95A8E028A025 /* Pods-iOS-with-Cicerone.debug.xcconfig */,
+				20427BCC7A3EFCE3130E608A /* Pods-iOS-with-Cicerone.release.xcconfig */,
+				94351D0A2F1BC6A864F906D6 /* Pods-iOS-with-CiceroneTests.debug.xcconfig */,
+				4F340BCFDFBD8805C32B09EE /* Pods-iOS-with-CiceroneTests.release.xcconfig */,
+				D54BAE5A531103A176CE8287 /* Pods-iOS-with-CiceroneUITests.debug.xcconfig */,
+				9978BE0BA24547AE93551A42 /* Pods-iOS-with-CiceroneUITests.release.xcconfig */,
+			);
+			name = Pods;
+			path = Pods;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -132,9 +173,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = BBF0812A225F2A00002FA60C /* Build configuration list for PBXNativeTarget "iOS-with-Cicerone" */;
 			buildPhases = (
+				A50BC1ECC45666DB6EDD5644 /* [CP] Check Pods Manifest.lock */,
 				BBF080FE225F29FD002FA60C /* Sources */,
 				BBF080FF225F29FD002FA60C /* Frameworks */,
 				BBF08100225F29FD002FA60C /* Resources */,
+				EDC41EFB3B7953C23B9982C8 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -149,6 +192,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = BBF0812D225F2A00002FA60C /* Build configuration list for PBXNativeTarget "iOS-with-CiceroneTests" */;
 			buildPhases = (
+				5931485B415CB98806148C05 /* [CP] Check Pods Manifest.lock */,
 				BBF08112225F2A00002FA60C /* Sources */,
 				BBF08113225F2A00002FA60C /* Frameworks */,
 				BBF08114225F2A00002FA60C /* Resources */,
@@ -167,6 +211,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = BBF08130225F2A00002FA60C /* Build configuration list for PBXNativeTarget "iOS-with-CiceroneUITests" */;
 			buildPhases = (
+				AEFB194203E8FF5F9B579B12 /* [CP] Check Pods Manifest.lock */,
 				BBF0811D225F2A00002FA60C /* Sources */,
 				BBF0811E225F2A00002FA60C /* Frameworks */,
 				BBF0811F225F2A00002FA60C /* Resources */,
@@ -250,6 +295,97 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		5931485B415CB98806148C05 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-iOS-with-CiceroneTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		A50BC1ECC45666DB6EDD5644 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-iOS-with-Cicerone-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		AEFB194203E8FF5F9B579B12 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-iOS-with-CiceroneUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		EDC41EFB3B7953C23B9982C8 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-iOS-with-Cicerone/Pods-iOS-with-Cicerone-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/Alamofire/Alamofire.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Alamofire.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-iOS-with-Cicerone/Pods-iOS-with-Cicerone-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		BBF080FE225F29FD002FA60C /* Sources */ = {
@@ -430,6 +566,7 @@
 		};
 		BBF0812B225F2A00002FA60C /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 051B4A1F060E95A8E028A025 /* Pods-iOS-with-Cicerone.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -448,6 +585,7 @@
 		};
 		BBF0812C225F2A00002FA60C /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 20427BCC7A3EFCE3130E608A /* Pods-iOS-with-Cicerone.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -466,6 +604,7 @@
 		};
 		BBF0812E225F2A00002FA60C /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 94351D0A2F1BC6A864F906D6 /* Pods-iOS-with-CiceroneTests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -487,6 +626,7 @@
 		};
 		BBF0812F225F2A00002FA60C /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4F340BCFDFBD8805C32B09EE /* Pods-iOS-with-CiceroneTests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -508,6 +648,7 @@
 		};
 		BBF08131225F2A00002FA60C /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = D54BAE5A531103A176CE8287 /* Pods-iOS-with-CiceroneUITests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
@@ -528,6 +669,7 @@
 		};
 		BBF08132225F2A00002FA60C /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9978BE0BA24547AE93551A42 /* Pods-iOS-with-CiceroneUITests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;

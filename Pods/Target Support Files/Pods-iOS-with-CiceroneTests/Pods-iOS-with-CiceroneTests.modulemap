@@ -1,0 +1,6 @@
+framework module Pods_iOS_with_CiceroneTests {
+  umbrella header "Pods-iOS-with-CiceroneTests-umbrella.h"
+
+  export *
+  module * { export * }
+}
