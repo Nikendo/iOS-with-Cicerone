@@ -10,11 +10,17 @@ import UIKit
 
 class ViewController: UIViewController {
 
+    let router = CommonRouter()
+    
     override func viewDidLoad() {
         super.viewDidLoad()
+        router.setViewController(viewController: self)
         // Do any additional setup after loading the view.
     }
 
-
+    @IBAction func goToSecond(_ sender: Any) {
+        router.routeToScreen(with: .second, data: nil)
+    }
+    
 }
 

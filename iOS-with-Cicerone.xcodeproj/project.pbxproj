@@ -9,6 +9,8 @@
 /* Begin PBXBuildFile section */
 		7CD9B657F2B60F4762CF4224 /* Pods_iOS_with_CiceroneUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 10AA688955AE34A5E70A45C2 /* Pods_iOS_with_CiceroneUITests.framework */; };
 		B98996DF3E87C9ECD1C3CFA7 /* Pods_iOS_with_Cicerone.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0C9193EF3FEDADDD3291E910 /* Pods_iOS_with_Cicerone.framework */; };
+		BBE804E622625FF300741395 /* CommonRouter.swift in Sources */ = {isa = PBXBuildFile; fileRef = BBE804E522625FF300741395 /* CommonRouter.swift */; };
+		BBE804E822627CD200741395 /* SecondVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = BBE804E722627CD200741395 /* SecondVC.swift */; };
 		BBF08106225F29FD002FA60C /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = BBF08105225F29FD002FA60C /* AppDelegate.swift */; };
 		BBF08108225F29FD002FA60C /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BBF08107225F29FD002FA60C /* ViewController.swift */; };
 		BBF0810B225F29FD002FA60C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BBF08109225F29FD002FA60C /* Main.storyboard */; };
@@ -16,6 +18,8 @@
 		BBF08110225F29FF002FA60C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BBF0810E225F29FF002FA60C /* LaunchScreen.storyboard */; };
 		BBF0811B225F2A00002FA60C /* iOS_with_CiceroneTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BBF0811A225F2A00002FA60C /* iOS_with_CiceroneTests.swift */; };
 		BBF08126225F2A00002FA60C /* iOS_with_CiceroneUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BBF08125225F2A00002FA60C /* iOS_with_CiceroneUITests.swift */; };
+		BBF08135225F3672002FA60C /* BaseRouting.swift in Sources */ = {isa = PBXBuildFile; fileRef = BBF08134225F3672002FA60C /* BaseRouting.swift */; };
+		BBF08137225F36E1002FA60C /* ScreenKey.swift in Sources */ = {isa = PBXBuildFile; fileRef = BBF08136225F36E1002FA60C /* ScreenKey.swift */; };
 		F2F18F1608B10DFC504510F6 /* Pods_iOS_with_CiceroneTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3F12C274AF3E89808734FC9F /* Pods_iOS_with_CiceroneTests.framework */; };
 /* End PBXBuildFile section */
 
@@ -45,6 +49,8 @@
 		4F340BCFDFBD8805C32B09EE /* Pods-iOS-with-CiceroneTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-iOS-with-CiceroneTests.release.xcconfig"; path = "Target Support Files/Pods-iOS-with-CiceroneTests/Pods-iOS-with-CiceroneTests.release.xcconfig"; sourceTree = "<group>"; };
 		94351D0A2F1BC6A864F906D6 /* Pods-iOS-with-CiceroneTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-iOS-with-CiceroneTests.debug.xcconfig"; path = "Target Support Files/Pods-iOS-with-CiceroneTests/Pods-iOS-with-CiceroneTests.debug.xcconfig"; sourceTree = "<group>"; };
 		9978BE0BA24547AE93551A42 /* Pods-iOS-with-CiceroneUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-iOS-with-CiceroneUITests.release.xcconfig"; path = "Target Support Files/Pods-iOS-with-CiceroneUITests/Pods-iOS-with-CiceroneUITests.release.xcconfig"; sourceTree = "<group>"; };
+		BBE804E522625FF300741395 /* CommonRouter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CommonRouter.swift; sourceTree = "<group>"; };
+		BBE804E722627CD200741395 /* SecondVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SecondVC.swift; sourceTree = "<group>"; };
 		BBF08102225F29FD002FA60C /* iOS-with-Cicerone.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "iOS-with-Cicerone.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		BBF08105225F29FD002FA60C /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		BBF08107225F29FD002FA60C /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -58,6 +64,8 @@
 		BBF08121225F2A00002FA60C /* iOS-with-CiceroneUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "iOS-with-CiceroneUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		BBF08125225F2A00002FA60C /* iOS_with_CiceroneUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = iOS_with_CiceroneUITests.swift; sourceTree = "<group>"; };
 		BBF08127225F2A00002FA60C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BBF08134225F3672002FA60C /* BaseRouting.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BaseRouting.swift; sourceTree = "<group>"; };
+		BBF08136225F36E1002FA60C /* ScreenKey.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScreenKey.swift; sourceTree = "<group>"; };
 		D54BAE5A531103A176CE8287 /* Pods-iOS-with-CiceroneUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-iOS-with-CiceroneUITests.debug.xcconfig"; path = "Target Support Files/Pods-iOS-with-CiceroneUITests/Pods-iOS-with-CiceroneUITests.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -89,9 +97,27 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		BBE804E322625FB500741395 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		BBE804E422625FCB00741395 /* Common */ = {
+			isa = PBXGroup;
+			children = (
+				BBE804E522625FF300741395 /* CommonRouter.swift */,
+			);
+			path = Common;
+			sourceTree = "<group>";
+		};
 		BBF080F9225F29FD002FA60C = {
 			isa = PBXGroup;
 			children = (
+				BBE804E422625FCB00741395 /* Common */,
+				BBE804E322625FB500741395 /* Views */,
+				BBF08133225F3643002FA60C /* Base */,
 				BBF08104225F29FD002FA60C /* iOS-with-Cicerone */,
 				BBF08119225F2A00002FA60C /* iOS-with-CiceroneTests */,
 				BBF08124225F2A00002FA60C /* iOS-with-CiceroneUITests */,
@@ -120,6 +146,7 @@
 				BBF0810C225F29FF002FA60C /* Assets.xcassets */,
 				BBF0810E225F29FF002FA60C /* LaunchScreen.storyboard */,
 				BBF08111225F29FF002FA60C /* Info.plist */,
+				BBE804E722627CD200741395 /* SecondVC.swift */,
 			);
 			path = "iOS-with-Cicerone";
 			sourceTree = "<group>";
@@ -142,6 +169,15 @@
 			path = "iOS-with-CiceroneUITests";
 			sourceTree = "<group>";
 		};
+		BBF08133225F3643002FA60C /* Base */ = {
+			isa = PBXGroup;
+			children = (
+				BBF08134225F3672002FA60C /* BaseRouting.swift */,
+				BBF08136225F36E1002FA60C /* ScreenKey.swift */,
+			);
+			path = Base;
+			sourceTree = "<group>";
+		};
 		EB558D465102310AEE92F16C /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
@@ -162,7 +198,6 @@
 				D54BAE5A531103A176CE8287 /* Pods-iOS-with-CiceroneUITests.debug.xcconfig */,
 				9978BE0BA24547AE93551A42 /* Pods-iOS-with-CiceroneUITests.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
@@ -393,7 +428,11 @@
 			buildActionMask = 2147483647;
 			files = (
 				BBF08108225F29FD002FA60C /* ViewController.swift in Sources */,
+				BBF08135225F3672002FA60C /* BaseRouting.swift in Sources */,
 				BBF08106225F29FD002FA60C /* AppDelegate.swift in Sources */,
+				BBE804E622625FF300741395 /* CommonRouter.swift in Sources */,
+				BBE804E822627CD200741395 /* SecondVC.swift in Sources */,
+				BBF08137225F36E1002FA60C /* ScreenKey.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
